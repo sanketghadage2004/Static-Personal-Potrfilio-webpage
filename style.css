@@ -10,6 +10,23 @@ html{
 h1{
     font-size: 25px;
 }
+
+h4{
+    display:flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+   
+}
+
+h5{
+    display:flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
 p{
     margin-bottom: 20px;
 }
@@ -24,11 +41,11 @@ p{
     font-size: 25px;
     margin: 2vh;
     color: black;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
     
 }
 .s-icon i:hover{
-    transform: translateY(-5px);
+    transform: translateY(-20px);
     /* color: brown; */
     
 }
@@ -39,14 +56,12 @@ p{
     margin: 50px;
 
 }
-/* .section1 div{
-    margin: 20px;
-} */
+
 section .hello{
     margin-bottom: 50px;
 }
 .btn{
-    padding: 4px 30px;
+    padding: 2px 27px;
     margin: 57px 0;
     border-radius: 20px;
     background-color: #f6e05e;
@@ -73,22 +88,14 @@ section h3{
     margin-left: 20px;
 }
 
-h4{
-    display:flex;
-    justify-content: center;
-    font-size: 20px;
-    margin-bottom: 40px;
-   
-}
+
 .my-services{
     display: flex;
     align-self: center;
     justify-content: space-around;
     
 }
-/* .my-services div{
-    align-items: center;
-} */
+
 section div i{
     font-size: xx-large;
     margin-bottom: 20px;
@@ -104,13 +111,9 @@ section .inner-container{
     height: 10px;
     background-color: bisque;
 }
-h5{
-    display:flex;
-    justify-content: center;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    font-size: 20px;
-}
+
+
+/* image  */
 
 .img1{
     height: 500px;
@@ -121,82 +124,13 @@ h5{
     width: 500px;
 }
 
-/* .skills{
-    display: flex;
-    justify-content: center;
-} */
-/* .skill-div{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-.div-1{
-    background-color: #f6e05e;
-    height: 5vh;
-    width: 20vw;
+/* skill bar  */
 
-}
-.div-2{
-    background-color: aqua;
-    height: 5vh;
-    width: 20vw;
-}
-.div-3{
-    background-color: blueviolet;
-    height: 5vh;
-    width: 20vw;
-}
-.div-4{
-    background-color: cadetblue;
-    height: 5vh;
-    width: 20vw;
-}
-.inner{
-    height: 5vh;
-    background-color: white;
-    width: 17vw;
-} */
-/* =============================== */
-/* skill bar */
-/* .skills li{
-    list-style: none;
-}
-.skills{ */
-    /* display: flex;
-    justify-content: space-around; */
-    /* width: 35vw;
-    margin: 50px 20px;
-}
-.bar{
-    background: #ffec7e;
-    display: block;
-    height: 10px;
-    border: 1px solid red;
-    border-radius: 5px; */
-    /* overflow: hidden; */
-/* }
-
-.html{
-    color: aqua;
-    width: 30%;
-    
-
-} */
-
-
-.skill-bar{
-    display: flex;
-
-}
 .skills{
-    /* display: flex;
-    justify-content: center; */
+
     width: 40%;
     max-width: 300px;
     padding: 20px 20px;
-
-    
-
 }
 
 
@@ -207,29 +141,29 @@ h5{
 
 .skill_bar{
     
-    height: 14px;
+    height: 26px;
     background-color: #faf2c3; 
     border-radius: 3px;
     border: 1px solid black;
 
 }
 .skill_per-1{
-    height: 14px;
+    height: 26px;
     background: #f6e05e;
     width: 90%;
 }
 .skill_per-2{
-    height: 14px;
+    height: 26px;
     background: #f6e05e;
     width: 80%;
 }
 .skill_per-3{
-    height: 14px;
+    height: 26px;
     background: #f6e05e;
     width: 70%;
 }
 .skill_per-4{
-    height: 14px;
+    height: 26px;
     background: #f6e05e;
     width: 60%;
 }
