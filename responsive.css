@@ -1,0 +1,21 @@
+@media screen and (max-width:910px){
+    body{
+        background-color: burlywood
+    } 
+    .hello{
+        display: inline-block;
+
+    }
+}
+@media screen and (max-width:720px){
+    body{
+        background-color: aqua
+    } 
+    
+}
+@media screen and (max-width:540px){
+    body{
+        background-color: red
+    } 
+    
+}

@@ -56,7 +56,10 @@ p{
     margin: 50px;
 
 }
-
+.hello{
+    display: flex;
+    align-items: baseline;
+}
 section .hello{
     margin-bottom: 50px;
 }
