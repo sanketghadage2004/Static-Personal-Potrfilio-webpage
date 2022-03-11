@@ -1,2 +1,4 @@
 # potrfilio-2
- personal portfilio
+This is a static personal portfilio web
+uses HTML and CSS 
+here you can check the website--> https://sanketghadage2004.github.io/Static-Personal-Potrfilio-webpage/
